@@ -1,0 +1,6 @@
+com/cvbuilder/dao/CVBuilderRepository.class
+com/cvbuilder/controller/CVBuilderController.class
+com/cvbuilder/entity/CVInfo.class
+com/cvbuilder/dao/LoginRepository.class
+com/cvbuilder/api/CVBuilderAPI.class
+com/cvbuilder/entity/Login.class
