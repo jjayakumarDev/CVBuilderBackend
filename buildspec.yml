@@ -10,9 +10,17 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - mvn compile
   post_build:
     commands:
       - echo Build completed on `date`
+      - mvn package
+      - mkdir artifact
+      - unzip target/cvbuilder.war -d artifact/
 artifacts:
   files:
-    - '**/*'
+    - artifact/**/*
+  name: artifact
+cache:
+  paths:
+    - 'root/.m2/**/*'
