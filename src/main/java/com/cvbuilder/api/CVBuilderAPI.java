@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages="com.cvbuilder.api")
+@ComponentScan("com.cvbuilder")
 @EntityScan("com.cvbuilder")
 @EnableJpaRepositories("com.cvbuilder.dao")
 public class CVBuilderAPI extends SpringBootServletInitializer{
