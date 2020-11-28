@@ -15,10 +15,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
-      - mv target/cvbuilder.war cvbuilder.war
 artifacts:
   files:
-    - cvbuilder.war
-    - .ebextensions/**/*
-  base-directory: 'target/cvbuilder'
+    - target/cvbuilder.war
