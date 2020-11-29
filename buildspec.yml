@@ -17,10 +17,8 @@ phases:
       - mvn package
       - mkdir artifact
       - unzip target/cvbuilder.war -d artifact/
+      - mv artifact/WEB-INF WEB-INF
 artifacts:
   files:
-    - artifact/**/*
+    - WEB-INF/**/*
   name: artifact
-cache:
-  paths:
-    - '/root/.m2/**/*'
