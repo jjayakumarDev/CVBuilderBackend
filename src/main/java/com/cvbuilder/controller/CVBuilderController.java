@@ -21,7 +21,7 @@ import com.cvbuilder.dao.LoginRepository;
 import com.cvbuilder.entity.CVInfo;
 import com.cvbuilder.entity.Login;
 
-@CrossOrigin(origins = "https://master.dmco9i7yt6dnd.amplifyapp.com")
+@CrossOrigin(origins = "http://cvbuilder-react.s3-website-us-east-1.amazonaws.com")
 @RestController
 public class CVBuilderController {
 	
