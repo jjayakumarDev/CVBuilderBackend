@@ -35,8 +35,8 @@ The code has been deployed in the Elastic beanstalk as a continuous deployment. 
 Since it is a continuous deployment it automatically trigger the pipeline whenever there is a change in this github repository's master branch. Once the code has been merged into master branch from other branches the pipeline will be triggered.
 
 The pipeline has Source, Build and Deploy stages.
-    Source is pull the code from the provided repository, I have chosen the gitub as my repository.
-    Build is to package the code from pulled git repository code.
-    Deploy is to deploy the code into the specific environment, I have chosen Elastic beanstalk for deployment.
+  *  Source is pull the code from the provided repository, I have chosen the gitub as my repository.
+   * Build is to package the code from pulled git repository code.
+   * Deploy is to deploy the code into the specific environment, I have chosen Elastic beanstalk for deployment.
 
 Elastic beanstalk provides the endpoint for the application.
