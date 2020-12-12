@@ -16,6 +16,8 @@ There can be options to update the CV on the CV builder application so that the 
 
 ### `Technical Details`
 
+TODO:
+
 ### `Commands to run the project locally and deploy`
 
 Run CVBuilderAPI.java file
