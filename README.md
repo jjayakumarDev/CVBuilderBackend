@@ -21,8 +21,8 @@ TODO:
 ### `Commands to run the project locally and deploy`
 
 Run CVBuilderAPI.java file
-If you are running from IDE, right click on the CVBuilderAPI.java and run as a java application
-If you are using command line interface then run 'java CVBuilderAPI.java' then we can see the spring initialization on the output file.
+If you are running from IDE, right-click on the CVBuilderAPI.java and run as a java application
+If you are using command-line interface then run 'java CVBuilderAPI.java' then we can see the spring initialization on the output file.
 
 mvn clean
 
@@ -32,12 +32,12 @@ We can deploy the .war file on your tomcat locally or any other servers
 
 ### `Run the project at AWS`
 
-The code has been deployed in the Elastic beanstalk as a continuous deployment. I have used CodePipeline for CI/CD.
+The code has been deployed in the Elastic beanstalk as continuous deployment. I have used CodePipeline for CI/CD.
 
-Since it is a continuous deployment it automatically trigger the pipeline whenever there is a change in this github repository's master branch. Once the code has been merged into master branch from other branches the pipeline will be triggered.
+Since it is a continuous deployment it automatically triggers the pipeline whenever there is a change in this GitHub repository's master branch. Once the code has been merged into the master branch from other branches the pipeline will be triggered.
 
-The pipeline has Source, Build and Deploy stages.
-  *  Source is pull the code from the provided repository, I have chosen the gitub as my repository.
+The pipeline has Sourced, Build and Deploy stages.
+  *  Source has pulled the code from the provided repository, I have chosen the GitHub as my repository.
    * Build is to package the code from pulled git repository code.
    * Deploy is to deploy the code into the specific environment, I have chosen Elastic beanstalk for deployment.
 

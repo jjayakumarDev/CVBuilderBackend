@@ -6,5 +6,5 @@ import com.cvbuilder.entity.Login;
 
 @Repository
 public interface LoginRepository extends CrudRepository<Login, String> {
-
+    //Empty Login repository extends CrudRepository, which can be overrided later
 }
