@@ -16,7 +16,7 @@ There can be options to update the CV on the CV builder application so that the 
 
 ### `Technical Details`
 
-TODO:
+The root file for the back-end is CVBuilderAPI.java which is initializing the Spring application, There is three segregation in the code which is Controller, DAO(Data Access Object), Entity. The controller is the place where we have a complete logic controls, once the REST API call has been made then it is captured and navigates the control flow to the respective places. If the GET call made we are doing the GET operations here and returns the response. If it is a big scale application then the business logic will be handled in the different files. files in the DAO package are intended to have a repository which is same as the table in the database, we have two repositories CV Info and log in. files in Entity components are POJO(Plain Old Java Object) classes which are for re-usability, each variable in the POJO represents each column of the table in the database.
 
 ### `Commands to run the project locally and deploy`
 
