@@ -1,6 +1,6 @@
 ## Project Details
 
-This project is the backend application for the CV builder project, I have used the java programing language and SPRING BOOT framework to create REST API.
+This project is the backend application for the CV builder project, I have used the java programming language and SPRING BOOT framework to create REST API.
 
 This application connects with the MySQL database a datastore. SPRING framework used here to make a connections between java code and database. CV builder collects data from the user like basic personal details, professional details for building the CV, with the CV builder application we can create, update, and delete the CV we need.
 

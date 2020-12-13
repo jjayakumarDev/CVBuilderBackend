@@ -1,7 +1,6 @@
 package com.cvbuilder.controller;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -21,7 +20,7 @@ import com.cvbuilder.dao.LoginRepository;
 import com.cvbuilder.entity.CVInfo;
 import com.cvbuilder.entity.Login;
 
-@CrossOrigin(origins = "https://master.d3p808i54etq7w.amplifyapp.com")
+@CrossOrigin(origins = "http://cvbuilder-reactjs-frontend.s3-website-us-east-1.amazonaws.com")
 @RestController
 public class CVBuilderController {
 	

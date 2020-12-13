@@ -21,7 +21,7 @@ public class CVBuilderAPI extends SpringBootServletInitializer{
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		//Application initializaton file
+		/*Application initializaton file*/
 		return builder.sources(CVBuilderAPI.class);
 	}
 }
